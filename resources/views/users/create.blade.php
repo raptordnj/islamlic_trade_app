@@ -31,6 +31,22 @@
                                         {{ Form::text('phone_number', null, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        {{ Form::label('address', 'Address', ['class' => 'form-control-label']) }}
+                                        {{ Form::text('address', null, ['class' => 'form-control']) }}
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        {{ Form::label('nid', 'NID', ['class' => 'form-control-label']) }}
+                                        {{ Form::text('nid', null, ['class' => 'form-control']) }}
+                                    </div>
+                                </div>
+
+
                                 <div class="col-lg-6">
                                     <div class="form-group">
                                         {{ Form::label('profile_photo', 'Photo', ['class' => 'form-control-label']) }}

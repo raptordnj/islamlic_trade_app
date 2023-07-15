@@ -33,6 +33,20 @@
                                         {{ Form::text('phone_number', $user->phone_number, ['class' => 'form-control']) }}
                                     </div>
                                 </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ Form::label('address', 'Address', ['class' => 'form-control-label']) }}
+                                        {{ Form::text('address', $user->address, ['class' => 'form-control']) }}
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        {{ Form::label('nid', 'NID', ['class' => 'form-control-label']) }}
+                                        {{ Form::text('nid', $user->nid, ['class' => 'form-control']) }}
+                                    </div>
+                                </div>
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         {{ Form::label('profile_photo', 'Photo', ['class' => 'form-control-label d-block']) }}

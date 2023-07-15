@@ -44,6 +44,22 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-1">
+                            Address
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>{{ $user->address }}</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            NID
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>{{ $user->nid }}</strong>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1">
                             Role
                         </div>
                         <div class="col-sm-3">
