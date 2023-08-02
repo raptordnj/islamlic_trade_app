@@ -14,7 +14,7 @@
                         </div>
                         <div class="col-auto">
                             <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                                <i class="ni ni-active-40"></i>
+                                <i class="ni ni-money-coins"></i>
                             </div>
                         </div>
                     </div>
