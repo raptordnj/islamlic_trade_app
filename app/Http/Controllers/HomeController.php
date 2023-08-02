@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Transaction;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -22,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $userBalance = Transaction::where('user_id', 1)->sum('amount');
+        dd( $userBalance);
         return view('home');
     }
 }
