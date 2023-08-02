@@ -18,10 +18,10 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mt-3 mb-0 text-sm">
+{{--                     <p class="mt-3 mb-0 text-sm">
                         <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
                         <span class="text-nowrap">Since today</span>
-                    </p>
+                    </p> --}}
                 </div>
             </div>
         </div>
@@ -40,14 +40,14 @@
                             </div>
                         </div>
                     </div>
-                    <p class="mt-3 mb-0 text-sm">
+         {{--            <p class="mt-3 mb-0 text-sm">
                         <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
                         <span class="text-nowrap">Since last month</span>
-                    </p>
+                    </p> --}}
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-6">
+     {{--    <div class="col-xl-3 col-md-6">
             <div class="card card-stats">
                 <!-- Card body -->
                 <div class="card-body">
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div>
-
+ --}}
 
     {{-- ============= --}}
 
