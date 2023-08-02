@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $userId = auth()->id();
+
         $userBalance = Transaction::where('user_id', 1)->sum('amount');
         dd( $userBalance);
         return view('home');
