@@ -25,7 +25,7 @@ class HomeController extends Controller
     {
         $userId = auth()->id();
 
-        $userBalance = Transaction::where('user_id',  $userId)->sum('amount');
+        $userBalance = Transaction::where('user_id',  12)->sum('amount');
         dd( $userBalance);
         return view('home');
     }
